@@ -27,7 +27,6 @@ public class Main {
         bootcampJava.getConteudos().add(curso2);
         bootcampJava.getConteudos().add(curso3);
         System.out.println(mentoria.toString() + " (Duração: 30 dias) ");
-
         System.out.println("\n");
 
         System.out.println("------- Status do 1° Dev inscrito no Bootcamp -------\n");
@@ -73,8 +72,6 @@ public class Main {
         System.out.println("Conteúdos CONCLUÍDOS de " + dev3.getNome() + ": " + dev3.getConteudosConcluidos());
         System.out.println("Conteúdos RESTANTES de " + dev3.getNome() + ": " + dev3.getConteudosInscritos());
         System.out.println("Quantidade de XP atual de " + dev3.getNome() + ": "+ dev3.calcularTotalXp());
-
-
 
     }
 }
