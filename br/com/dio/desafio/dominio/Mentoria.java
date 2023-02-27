@@ -7,7 +7,6 @@ public class Mentoria extends Conteudo{
     protected LocalDate dataInicial;
     protected LocalDate dataFinal;
 
-
     public LocalDate getDataInicial() {
         return dataInicial = LocalDate.now();
     }
